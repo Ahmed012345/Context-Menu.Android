@@ -97,7 +97,7 @@ public class MenuAdapter {
             ViewHelper.setRotationY(view, -90);
             ViewHelper.setRotationX(view, 0);
         }
-        ViewHelper.setPivotX(view, mMenuItemSize);
+        ViewHelper.setPivotX(view, 0);
         ViewHelper.setPivotY(view, mMenuItemSize / 2);
     }
 
