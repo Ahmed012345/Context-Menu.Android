@@ -7,12 +7,12 @@ import com.nineoldandroids.animation.ObjectAnimator;
 
 public class AnimatorUtils {
 
-    public static ObjectAnimator rotationCloseToRight(View v) {
-        return ObjectAnimator.ofFloat(v, "rotationY", 0, -90);
-    }
+   public static ObjectAnimator rotationCloseToLeft(View v) {
+        return ObjectAnimator.ofFloat(v, "rotationY", 0, 90);
+     }
 
-    public static ObjectAnimator rotationOpenFromRight(View v) {
-        return ObjectAnimator.ofFloat(v, "rotationY", -90, 0);
+   public static ObjectAnimator rotationOpenFromLeft(View v) {
+        return ObjectAnimator.ofFloat(v, "rotationY", 90, 0);
     }
 
     public static ObjectAnimator rotationCloseVertical(View v) {
